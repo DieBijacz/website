@@ -29,11 +29,39 @@
     transform: scale(0.98);
 }
 
+/* BACKGROUNDS & COLORED BUTTONS */
+
+.bg-primary,
+.btn-primary {
+    background-color: var(--blue-color);
+    color: white;
+}
+.bg-dark,
+.btn-dark {
+    background-color: var(--second-blue-color);
+    color: white;
+}
+
+/* TEXT SIZES */
+.lead {
+    font-size: 20px;
+}
+.sm {
+    font-size: 1rem;
+}
+.md {
+    font-size: 2rem;
+}
+.lg {
+    font-size: 3rem;
+}
+.xl {
+    font-size: 4rem;
+}
+
 .text-center {
     text-align: center;
 }
-
-
 .flex {
     display: flex;
     justify-content: center;
@@ -51,6 +79,7 @@
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
 }
+
 
 /* ===Margin=== */
 

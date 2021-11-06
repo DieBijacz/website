@@ -3,15 +3,14 @@
 :root {
     --font-color: rgb(39, 39, 39);
     --blue-color: rgb(37, 75, 124);
+    --second-blue-color: rgb(14, 40, 75);
     --red-color: rgb(199, 26, 26);
 }
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;    
 }
-
 body {
     font-family: 'Lato', sans-serif;
     color: var(--font-color);
@@ -25,17 +24,14 @@ a {
     text-decoration: none;
     color: var(--font-color);    
 }
-
 h1, h2 {
     font-weight: 900;
     line-height: 1.2;
     margin: 10px, 0;    
 }
-
 p {
     margin: 10px 0;
 }
-
 img {
     width: 100%;
 }
@@ -72,10 +68,6 @@ img {
     color: white;
     position: relative;
 }
-.hero h1 {
-    font-size: 40px;
-}
-
 .hero p {
     margin: 20px 0;
 }
@@ -93,7 +85,6 @@ img {
     z-index: 100;
     justify-self: flex-end;
 }
-
 .hero-form .form-control {
     margin: 30px 0;
 }
@@ -151,11 +142,38 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
-
 .cli .grid > *:first-child {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
+
+/* ===CLOUD=== */
+
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
+}
+
+/* ===LANGUAGES=== */
+
+.languages .flex {
+    flex-wrap: wrap;
+}
+.languages .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+.languages .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages .card:hover {
+    transform: translateY(-15px);
+}
+
+
+
 
 
 
