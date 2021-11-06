@@ -29,6 +29,7 @@
     transform: scale(0.98);
 }
 
+
 /* BACKGROUNDS & COLORED BUTTONS */
 
 .bg-primary,
@@ -53,7 +54,42 @@
     color: white;
 }
 
+/* TEXT COLOR */
+
+.text-primary {
+    color: var(--blue-color);
+}
+.text-dark {
+   color: var(--second-blue-color);
+}
+.text-light {
+  color: var(--light-color);
+}
+
+
+/* ALERT */
+
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+.alert i {
+    margin-right: 10px;
+}
+.alert-success {
+    background-color: var(--success-color);
+    color: white;
+}
+.alert-error {
+    background-color: var(--red-color);
+    color: white;
+}
+
+
+
 /* TEXT SIZES */
+
 .lead {
     font-size: 20px;
 }
@@ -125,6 +161,7 @@
 .m-5 {
     margin: 4rem;
 }
+
 
 /* ===Padding=== */
 
