@@ -41,6 +41,11 @@
     background-color: var(--second-blue-color);
     color: white;
 }
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color: var(--font-color);
+}
 .bg-dark a,
 .btn-dark a,
 .bg-primary a,
